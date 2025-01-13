@@ -65,7 +65,7 @@ export const Button = () => {
                 ) : (
                     <div>
                         <button disabled={connecting} onClick={connect}>
-                            Connect to MetaMask Wallet
+                            Connect with MetaMask
                         </button>
                     </div>
                 )}
